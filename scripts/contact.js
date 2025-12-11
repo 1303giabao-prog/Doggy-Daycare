@@ -9,7 +9,7 @@ const contactPage = document.getElementById("contact-page");
 
 if (submitButton && contactPage) {
         submitButton.addEventListener("click",()=>{
-            contactPage.innerHTML = '<p style="font-size: 24px;">Thank you for your message</p>';
+            contactPage.innerHTML = '<p style="font-size: 24px;">Thank you for your message!</p>';
         });
 }
 
