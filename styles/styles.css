@@ -42,8 +42,12 @@ body {
         - change the text colour to white, and
         - change the cursor to pointer.
 */
+/* ===== HEADER ===== */
 header img{
     height: 80px;
+    animation: Fadein 3s ease-in-out infinite alternate;
+    position: absolute;
+    left: 40px;
 }
 header{
     background-color: #E5AF42;
@@ -51,10 +55,8 @@ header{
     position: relative;
 
 }
-header img{
-    animation: Fadein 3s ease-in-out infinite alternate;
-    transform: translateX(80%);
-}
+/* ===== ANIMATIONS ===== */
+
 @keyframes Fadein {
 
     0% {opacity: 0;}
@@ -62,6 +64,84 @@ header img{
     100% {opacity: 1;}
 }
 
+
+
+
+
+
+/* Hover effects for links, images, and buttons */
+.flex .fake-button:hover{
+    transform: scale(1.05);
+    background-color:#D27D2D;
+    color: white;
+    transition:0.5s;
+    cursor: pointer;
+}
+#clear-button:hover{
+    background-color: #D27D2D;
+    color:white;
+}
+.blue-hover{
+    border: 1px solid black;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #D27D2D;
+    color: white;
+    cursor: pointer;
+}
+a h1:hover{
+    color: white;
+    cursor: pointer;
+}
+
+a img:hover{
+    cursor: pointer;
+    transform:translateY(1px);
+}
+
+/* Possiontioning and Decoration*/
+.clicked{
+    background-color: #E5AF42;
+}
+.booking-page{
+    text-align:center ;
+ 
+}
+#clear-button{
+    width: clamp(150px, 20vw, 200px);
+    margin: auto;
+}
+input:focus{
+    background-color:lightblue;
+}
+.contact{
+    text-align: center;
+    height: 500px
+}
+form{
+    position: relative;
+}
+
+
+input, textarea, button{
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    width: 45%;
+    height: fit-content;
+}
+textarea{
+    margin-left: 0;
+}
+.flex label {
+  width: 20%;       
+}
+textarea{
+    height: 150px;
+}
 
 .flex h1{
     margin: auto;
@@ -71,14 +151,8 @@ a {
     text-decoration: none;
     color: black;
 }
-a h1:hover{
-    color: white;
-    cursor: pointer;
-}
-a img:hover{
-    cursor: pointer;
-    transform:translateY(2px);
-}
+
+
 main{
     margin: 25px 0;
 }
@@ -106,72 +180,21 @@ footer{
     padding: 1.2em 3em 1.2em 3em;
     margin: 5% ;
 }
-.flex .fake-button:hover{
-    transform: scale(1.05);
-    background-color:#D27D2D;
-    color: white;
-    transition:0.5s;
-    cursor: pointer;
-}
-.blue-hover{
-    border: 1px solid black;
-    padding: 0.5em 1em 0.5em 1em;
-    border-radius: 5px;
-}
-.clicked{
-    background-color: #E5AF42;
-}
-.booking-page{
-    text-align:center ;
- 
-}
-#clear-button{
-    width: clamp(150px, 20vw, 200px);
-    margin: auto;
-}
-#clear-button:hover{
-    background-color: #D27D2D;
-    color:white;
-}
-input:focus{
-    background-color:lightblue;
-}
-.contact{
-    text-align: center;
-    height: 500px
-}
-form{
-    position: relative;
-}
-input, textarea, button{
-    font-size: 16px;
-    line-height: 24px;
-    border: 1px solid black;
-    margin-bottom: 5%;
-    width: 45%;
-    height: fit-content;
-}
+
 button{
     width: 46%;
     background-color: #E5AF42;
     left: 38%;
     position: absolute;
 }
-button:hover{
-    background-color: #D27D2D;
-    color: white;
-    cursor: pointer;
-}
+
 textarea{
     margin-left: 0;
+    height: 150px;
 }
 .flex label {
   width: 20%;       
 }
-textarea{
-    height: 150px;
-}
-
 
 /************* header/footer styling *************/
 
