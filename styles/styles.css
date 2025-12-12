@@ -47,7 +47,10 @@ header img{
     height: 80px;
     animation: Fadein 3s ease-in-out infinite alternate;
     position: absolute;
-    left: 40px;
+    left:20px;
+    bottom:10px;
+
+
 }
 header{
     background-color: #E5AF42;
