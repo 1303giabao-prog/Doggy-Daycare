@@ -49,11 +49,12 @@ header img{
     position: absolute;
     left:20px;
     bottom:10px;
+   
 
 
 }
 header{
-    background-color: #E5AF42;
+    background-color:#F0E68C;
     padding: 15px 0;
     position: relative;
 
@@ -73,9 +74,15 @@ header{
 
 
 /* Hover effects for links, images, and buttons */
+.flex .fake-button{
+    background-color:#FAFAD2;
+    border: 1px solid black;
+    padding: 1.2em 3em 1.2em 3em;
+    margin: 5% ;
+}
 .flex .fake-button:hover{
     transform: scale(1.05);
-    background-color:#D27D2D;
+    background-color:#996515;
     color: white;
     transition:0.5s;
     cursor: pointer;
@@ -90,7 +97,7 @@ header{
     border-radius: 5px;
 }
 button:hover{
-    background-color: #D27D2D;
+    background-color:#996515;
     color: white;
     cursor: pointer;
 }
@@ -106,7 +113,8 @@ a img:hover{
 
 /* Possiontioning and Decoration*/
 .clicked{
-    background-color: #E5AF42;
+    background-color:#996515;
+    color:#FDFBD4;
 }
 .booking-page{
     text-align:center ;
@@ -174,15 +182,11 @@ footer{
     display:flex;
     flex-direction: column;
     text-align: center;
-    background-color: #E5AF42;
+    background-color:#D4AF37;
     padding: 10px 0;
+    color:black;
 }
-.flex .fake-button{
-    background-color: #E5AF42;
-    border: 1px solid black;
-    padding: 1.2em 3em 1.2em 3em;
-    margin: 5% ;
-}
+
 
 button{
     width: 46%;
