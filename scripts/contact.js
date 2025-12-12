@@ -13,4 +13,3 @@ if (submitButton && contactPage) {
         });
 }
 
-console.log(submitButton);

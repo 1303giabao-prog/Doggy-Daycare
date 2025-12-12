@@ -33,7 +33,7 @@ if (dayButtons && dayButtons.length) {
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
 if (clearBtn) {
   clearBtn.addEventListener('click', function () {
-    dayButtons.forEach(day => {
+    dayButtons.forEach(function(day) {
       day.classList.remove('clicked');
     });
     dayCount = 0;
