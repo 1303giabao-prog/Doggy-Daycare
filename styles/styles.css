@@ -15,7 +15,7 @@ You are encouraged to improve any provided CSS by using modern units and increas
 
 /************* site defaults *************/
 body {
-  width: 950px;
+  width: 975px;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
@@ -44,11 +44,12 @@ body {
 */
 /* ===== HEADER ===== */
 header img{
-    height: 80px;
+    height: clamp(2.5em,3.95em,7em);
     animation: Fadein 3s ease-in-out infinite alternate;
     position: absolute;
     left:20px;
     bottom:10px;
+    width: clamp(7em, 4em,11em)
    
 
 
@@ -156,7 +157,8 @@ textarea{
 
 .flex h1{
     margin: auto;
-    font-size: clamp(24px, 5vw, 48px);
+    font-size: clamp(24px, 2vw, 48px);
+   
 }
 a {
     text-decoration: none;
@@ -166,7 +168,10 @@ a {
 
 main{
     margin: 25px 0;
+    
 }
+
+    
 h2{
     font-size:clamp(1.75rem, 4vw, 2.25rem);
     margin: auto;
