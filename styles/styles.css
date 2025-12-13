@@ -54,7 +54,7 @@ header img{
 
 }
 header{
-    background-color:#F0E68C;
+    background-color:#D4AF37;
     padding: 15px 0;
     position: relative;
 
@@ -75,7 +75,7 @@ header{
 
 /* Hover effects for links, images, and buttons */
 .flex .fake-button{
-    background-color:#FAFAD2;
+    background-color:#E4B10A;
     border: 1px solid black;
     padding: 1.2em 3em 1.2em 3em;
     margin: 5% ;
